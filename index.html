@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Teacher's Day</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts for better typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Happy Teacher's Day!</h1>
+    </header>
+
+    <main>
+      <div class="letter-image" id="letter">
+        <div class="animated-mail">
+          <div class="back-fold"></div>
+          <div class="letter" style="background: #f2d6cd">
+            <div class="letter-border"></div>
+
+            <div class="letter-stamp">
+              <div class="letter-stamp-inner"></div>
+            </div>
+          </div>
+          <div class="top-fold"></div>
+          <div class="body"></div>
+          <div class="left-fold"></div>
+        </div>
+        <div class="shadow"></div>
+      </div>
+    </main>
+
+    <!-- Modal Structure -->
+    <div class="modal" id="modal">
+      <div class="modal-content" style="height: auto">
+        <span class="close" id="close">&times;</span>
+        <div class="container">
+          <header class="header" id="modal-header">
+            <div class="logo" style="padding-top: 10px">
+              <img
+                src="graduation.jpg"
+                alt="Teacher's Day Logo"
+                style="width: 50px; height: 50px; border-radius: 50%"
+              />
+            </div>
+            <div id="modal-header-text" style="margin-right: 20px">
+              <h1
+                class="title"
+                style="text-align: end; color: white; font-size: 50px"
+              >
+                CELEBRATE
+              </h1>
+              <h1
+                class="title"
+                style="text-align: end; color: white; font-size: 50px"
+              >
+                TEACHER'S DAY
+              </h1>
+            </div>
+          </header>
+
+          <main
+            class="content"
+            id="modal-content"
+            style="height: 100%; padding-right: 20px"
+          >
+            <div
+              class="left-half"
+              style="width: 50%; height: 100%; text-align: left"
+            >
+              <div
+                class="image-container"
+                style="height: 100%; display: flex; justify-content: flex-start"
+              >
+                <img
+                  src="teacher.jpg"
+                  alt="Teacher Image"
+                  class="teacher-img"
+                  style="
+                    max-height: 80%;
+                    max-width: 80%;
+                    width: auto;
+                    height: auto;
+                    margin-left: 0;
+                  "
+                />
+              </div>
+            </div>
+            <div class="right-half" style="max-width: 50%; height: 100%">
+              <p class="subtitle" style="text-align: end; color: black">
+                Thanks for Being an Awesome Teacher!
+              </p>
+              <p class="description" style="text-align: justify; color: black">
+                On this special day, I want to express my heartfelt gratitude
+                for your unwavering dedication, patience, and guidance. You have
+                not only taught me lessons from books but also values that shape
+                who I am today. Your passion for teaching and belief in my
+                potential inspire me every day to strive for excellence. Thank
+                you for being more than just a teacher—thank you for being a
+                mentor, a guide, and a source of endless encouragement. Happy
+                Teacher's Day!
+              </p>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2024 Nguyen Minh Quan - Ho Chi Minh city University of Technology
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
