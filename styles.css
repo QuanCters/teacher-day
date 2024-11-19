@@ -287,8 +287,9 @@ footer {
 
 .container .subtitle {
   font-size: 1.2em;
-  margin-bottom: 20px;
-  color: #ffd700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .container .content .image-container {
